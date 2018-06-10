@@ -1,0 +1,256 @@
+/* BASIS */
+
+body {
+    background-color: #F8F8FA;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #24323D;
+    font-family: Sukhumvit Set, sans-serif;
+}
+
+h2 {
+    color: #24323D;
+    font-family: Sukhumvit Set, sans-serif;
+    font-size: 1em;
+    margin: 0;
+
+}
+
+p {
+    font-family: Sukhumvit Set, sans-serif;
+}
+
+/* Navigation */
+
+.nav {
+    background-color: #24323D;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: helvetica, sans-serif;
+}
+
+.nav a:hover {
+    background-color: #8AAEBE;
+    color: #24323D;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #8AAEBE;
+    color: #24323D;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8AAEBE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #24323D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #F8F8FA;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* FORSIDE */
+
+#splash {
+    width: 100vw;
+    height: 56.25vw;
+
+    position: relative;
+}
+
+#baggrund {
+    width: 100%;
+    height: 100%;
+    background-image: url(skrivebord_4.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+
+}
+
+#h1_txt {
+    position: absolute;
+    top: 15vw;
+    left: 7vw;
+    font-size: 7vw;
+    color: #24323D;
+}
+
+#p1_txt {
+    position: absolute;
+    top: 33vw;
+    left: 9vw;
+
+    font-size: 3vw;
+    color: #8AAEBE;
+}
+
+#p2_txt {
+    position: absolute;
+    top: 33vw;
+    left: 34vw;
+
+
+    font-size: 3vw;
+    color: #8AAEBE;
+}
+
+#p3_txt {
+    position: absolute;
+    top: 33vw;
+    left: 74vw;
+
+
+    font-size: 3vw;
+    color: #8AAEBE;
+}
+
+
+/* portfolio */
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+#imgt1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.columntema {
+
+    position: relative;
+    width: 30%;
+    margin: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8AAEBE;
+}
+
+.columntema:hover .overlay {
+    opacity: 1;
+}
+
+.tematext {
+    color: #24323D;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#imgt2 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#imgt3 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* CV */
+
+.columncv {
+    flex-basis: 300px;
+    flex-grow: 1;
+    background-color: #8AAEBE;
+}
+
+#cvtxt {
+    color: #24323D;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em;
+}
+
+#cvimg {
+    margin: 0.5em;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #8AAEBE;
+    margin-bottom: 0;
+
+}
+
+footer p {
+     color: #24323D;
+    text-align: left;
+    font-family: Sukhumvit Set, sans-serif;
+    margin: 0em;
+    margin-left: 1em;
+    font-size: 0.7em;
+}
